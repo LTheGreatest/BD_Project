@@ -6,7 +6,6 @@ CREATE TABLE Users(
     username VARCHAR(30) PRIMARY KEY,
     email VARCHAR(30) UNIQUE NOT NULL,
     password VARCHAR(15) NOT NULL,
-    subscription_id INT NOT NULL
 );
 
 
