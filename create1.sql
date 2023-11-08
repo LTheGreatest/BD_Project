@@ -140,3 +140,16 @@ CREATE TABLE Favourites_Film_and_Series_Cast(
     FOREIGN KEY(cast_id) REFERENCES Film_and_Series_Cast(cast_id)
 );
 
+DROP TABLE IF EXISTS Reviews;
+CREATE TABLE Reviews(
+    review_id INT PRIMARY KEY,
+    username VARCHAR(30) NOT NULL,
+    film_or_series_id INT NOT NULL,
+    review_time DATETIME NOT NULL,
+    review_description TEXT NOT NULL,
+    review_rating INT NOT NULL CHECK(review_rating > 0 AND review_rating <= 5),
+    UNIQUE(username,review_time),
+    FOREIGN KEY(username) REFERENCES Users(username),
+    FOREIGN KEY(film_or_series_id) REFERENCES Films_and_Series(film_or_series_id)
+);
+
