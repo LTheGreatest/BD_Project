@@ -53,7 +53,7 @@ CREATE TABLE Episode(
     episode_number INTEGER NOT NULL,
     episode_release_date DATE NOT NULL,
     episode_name TEXT NOT NULL,
-    duration_minutes INTEGER NOT NULL,
+    episode_duration_minutes INTEGER NOT NULL,
     episode_description TEXT,
     episode_rating INTEGER CHECK(episode_rating > 0 AND episode_rating <= 5),
     UNIQUE (series_id,season_number,episode_number),
