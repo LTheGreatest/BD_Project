@@ -3,22 +3,23 @@ INSERT INTO Users VALUES ('frankie02m','francisco.magalhaes2002@gmail.com','VXN9
 ('lucasthegreat','lucasfaria@gmail.com','mhsASgbsQ04'),
 ('rodrigopires','rodrigopires04@gmail.com','AgfKl09TT!1');
 
-INSERT INTO Subscriptons VALUES(1,'frankie02m','2023-01-07','2023-02-07','Debit Card'),
-(2,'frankie02m','2023-04-13','2023-05-13','Debit Card'),
-(3,'gustavonelson098','2023-11-08','2024-12-08', 'Credit Card'),
-(3,'frankie02m', '2023-11-10','2023-12-10','Credit Card'),
-(4,'lucasthegreat','2023-11-10','2023-11-17','Paypal'),
-(5,'rodrigopires','2023-11-10','2023-11-17','Paypal');
+INSERT INTO Subscriptions VALUES
+(1,'frankie02m','2023-01-07','2023-02-07','Debit Card','Expired'),
+(2,'frankie02m','2023-04-13','2023-05-13','Debit Card','Expired'),
+(3,'gustavonelson098','2023-11-08','2024-12-08', 'Credit Card','Active'),
+(4,'frankie02m', '2023-11-10','2023-12-10','Credit Card','Active'),
+(5,'lucasthegreat','2023-11-10','2023-11-17','Paypal','Expired'),
+(6,'rodrigopires','2023-11-10','2023-11-17','Paypal','Expired');
 
 INSERT INTO Films_and_Series VALUES(1,'Inception', 'A mind-bending heist thriller', 'Sci-Fi', 13, 4, 'Legendary Pictures'),
 (2,'Stranger Things', 'A thrilling supernatural series', 'Drama', 13, 4, 'Netflix'),
 (3,'The Crown','Historical drama about the reign of Queen Elizabeth II', 'Drama', 16, 5, 'Netflix'),
 (4, 'The Witcher', 'A fantasy series based on the book series by Andrzej Sapkowski. Follow Geralt of Rivia, a monster hunter, as he navigates a world filled with magic, political intrigue, and dangerous creatures.', 'Fantasy', 18, 2, 'Netflix'),
 (5, 'Breaking Bad', 'A high school chemistry teacher turned methamphetamine manufacturer faces the consequences of his actions in this intense crime drama.', 'Drama', 18, 5, 'AMC'),
-(6, 'Game of Thrones', 'A medieval fantasy epic that follows noble families vying for control of the Iron Throne in the Seven Kingdoms of Westeros.', 'Fantasy', 18, 8, 'HBO'),
-(7, 'Friends', 'A classic sitcom that revolves around the lives, loves, and comedic misadventures of six friends living in Manhattan.', 'Comedy', 13, 10, 'Warner Bros. Television'),
-(8, 'The Shawshank Redemption', 'A powerful drama that tells the story of a banker s life sentence in Shawshank State Penitentiary and his journey to redemption.', 'Drama', 15, 1, 'Columbia Pictures'),  (9, 'The Dark Knight', 'The Caped Crusader faces the Joker, a criminal mastermind, in this gripping superhero film directed by Christopher Nolan.', 'Action', 13, 2, 'Warner Bros. Pictures'),
-(9, 'Inglourious Basterds', 'Quentin Tarantino s alternate history war film follows a group of Jewish Allied soldiers as they plan to assassinate Nazi leaders during World War II.', 'War', 18, 1, 'The Weinstein Company');
+(6, 'Game of Thrones', 'A medieval fantasy epic that follows noble families vying for control of the Iron Throne in the Seven Kingdoms of Westeros.', 'Fantasy', 18, 4, 'HBO'),
+(7, 'Friends', 'A classic sitcom that revolves around the lives, loves, and comedic misadventures of six friends living in Manhattan.', 'Comedy', 13, 5, 'Warner Bros. Television'),
+(8, 'The Shawshank Redemption', 'A powerful drama that tells the story of a banker s life sentence in Shawshank State Penitentiary and his journey to redemption.', 'Drama', 15, 2, 'Columbia Pictures'),
+(9, 'Inglourious Basterds', 'Quentin Tarantino s alternate history war film follows a group of Jewish Allied soldiers as they plan to assassinate Nazi leaders during World War II.', 'War', 18, 3, 'The Weinstein Company'),
 (10, 'Harry Potter and the Philosopher''s Stone', 'The first installment in the Harry Potter film series.', 'Fantasy', 7, 4, 'Warner Bros. Pictures'),
 (11, 'Harry Potter and the Chamber of Secrets', 'The second adventure of Harry and his friends at Hogwarts.', 'Fantasy', 7, 4, 'Warner Bros. Pictures'),
 (12, 'Harry Potter and the Prisoner of Azkaban', 'Harry learns more about his past and faces new challenges at Hogwarts.', 'Fantasy', 7, 4, 'Warner Bros. Pictures'),
@@ -33,7 +34,7 @@ INSERT INTO Films_and_Series VALUES(1,'Inception', 'A mind-bending heist thrille
 INSERT INTO Films VALUES 
   (1, 2.5, '2010-07-16'),
   (8, 2.3, '1994-09-23'),
-  (9, 2.3, '2009-05-20');
+  (9, 2.3, '2009-05-20'),
   (10, 2.5, '2001-11-16'),
   (11, 2.5, '2002-11-15'),
   (12, 2.5, '2004-06-04'),
@@ -46,12 +47,13 @@ INSERT INTO Films VALUES
 
 INSERT INTO Series VALUES
 (2),
+(3),
 (4),
 (5),
 (6),
-(7),
+(7);
 
-INSERT INTO Episodes VALUES
+INSERT INTO Episode VALUES
   (1, 2, 1, 1, '2016-07-15', 'Chapter One: The Vanishing of Will Byers', 50, 'The disappearance of a young boy triggers a series of supernatural events in the small town of Hawkins.', 4.2),
   (2, 2, 1, 2, '2016-07-15', 'Chapter Two: The Weirdo on Maple Street', 48, 'Joyce is convinced Will is trying to communicate with her; the boys give Eleven a makeover.', 4.7),
   (3, 2, 1, 3, '2016-07-15', 'Chapter Three: Holly, Jolly', 51, 'An increasingly concerned Nancy looks for Barb and finds out what Jonathan has been up to.', 4.1),
@@ -59,7 +61,7 @@ INSERT INTO Episodes VALUES
   (5, 2, 1, 5, '2016-07-15', 'Chapter Five: The Flea and the Acrobat', 48, 'Hopper breaks into the lab while Nancy and Jonathan confront the force that took Will. The boys ask Mr. Clarke how to travel to another dimension.', 4.0),
   (6, 2, 1, 6, '2016-07-15', 'Chapter Six: The Monster', 46, 'A frantic Jonathan looks for Nancy in the darkness, but Steve is looking for her, too. Hopper and Joyce uncover the truth about the lab s experiments.', 4.2),
   (7, 2, 1, 7, '2016-07-15', 'Chapter Seven: The Bathtub', 42, 'Eleven struggles to reach Will, while Lucas warns that "the bad men are coming." Nancy and Jonathan show the police what Jonathan caught on camera.', 4.4),
-  (8, 2, 1, 8, '2016-07-15', 'Chapter Eight: The Upside Down', 55, 'Dr. Owens speculates about the shadow monster. Will and the gang join forces for one last stand against the Mind Flayer.', 4.8);
+  (8, 2, 1, 8, '2016-07-15', 'Chapter Eight: The Upside Down', 55, 'Dr. Owens speculates about the shadow monster. Will and the gang join forces for one last stand against the Mind Flayer.', 4.8),
   (9, 2, 2, 1, '2017-10-27', 'Chapter One: MADMAX', 54, 'As the town preps for Halloween, a high-scoring rival shakes things up in the arcade, and a skeptical Hopper inspects a field of rotting pumpkins.', 4.0),
   (10, 2, 2, 2, '2017-10-27', 'Chapter Two: Trick or Treat, Freak', 47, 'After Will sees something terrible on trick-or-treat night, Mike wonders whether Eleven is still out there. Nancy wrestles with the truth about Barb.', 3.8),
   (11, 2, 2, 3, '2017-10-27', 'Chapter Three: The Pollywog', 50, 'Dustin adopts a strange new pet, and Eleven grows increasingly impatient. A well-meaning Bob urges Will to stand up to his fears.', 3.9),
@@ -68,7 +70,7 @@ INSERT INTO Episodes VALUES
   (14, 2, 2, 6, '2017-10-27', 'Chapter Six: The Spy', 48, 'Will s connection to a shadowy evil grows stronger, but no one is quite sure how to stop it. Elsewhere, Dustin and Steve forge an unlikely bond.', 3.7),
   (15, 2, 2, 7, '2017-10-27', 'Chapter Seven: The Lost Sister', 45, 'Psychic visions draw Eleven to a band of violent outcasts and an angry girl with a shadowy past.', 4.2),
   (16, 2, 2, 8, '2017-10-27', 'Chapter Eight: The Mind Flayer', 49, 'An unlikely hero steps forward when a deadly development puts the Hawkins Lab on lockdown, trapping Will and several others inside.', 4.5),
-  (17, 2, 2, 9, '2017-10-27', 'Chapter Nine: The Gate', 53, 'Eleven makes plans to finish what she started while the survivors turn up the heat on the monstrous force that is holding Will hostage.', 4.0);
+  (17, 2, 2, 9, '2017-10-27', 'Chapter Nine: The Gate', 53, 'Eleven makes plans to finish what she started while the survivors turn up the heat on the monstrous force that is holding Will hostage.', 4.0),
   (18, 2, 3, 1, '2019-07-04', 'Chapter One: Suzie, Do You Copy?', 53, 'Summer brings new jobs and budding romance. But the mood shifts when Dustin s radio picks up a Russian broadcast, and Will senses something is wrong.', 4.0),
   (19, 2, 3, 2, '2019-07-04', 'Chapter Two: The Mall Rats', 49, 'The gang explores the mall, while Eleven and Billy reconnect. But they are faced with an unexpected threat.', 4.1),
   (20, 2, 3, 3, '2019-07-04', 'Chapter Three: The Case of the Missing Lifeguard', 48, 'With El and Max looking for Billy, Will declares a day without girls. Steve and Dustin go on a stakeout, and Joyce and Hopper return to Hawkins Lab.', 4),
@@ -76,7 +78,7 @@ INSERT INTO Episodes VALUES
   (22, 2, 3, 5, '2019-07-04', 'Chapter Five: The Flayed', 53, 'Flayed corpses pile up in Hawkins. Billy and Mrs. Wheeler make a disturbing discovery. A lifeguard becomes the center of attention.', 4.5),
   (23, 2, 3, 6, '2019-07-04', 'Chapter Six: E Pluribus Unum', 52, 'Dr. Alexei reveals what the Russians have been building, and Eleven sees where Billy has been. Dustin and Erica stage a daring rescue.', 4.6),
   (24, 2, 3, 7, '2019-07-04', 'Chapter Seven: The Bite', 47, 'With time running out - and an assassin close behind - Hopper s crew races back to Hawkins, where El and the kids are preparing for war.', 4.7),
-  (25, 2, 3, 8, '2019-07-04', 'Chapter Eight: The Battle of Starcourt', 78, 'Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.', 4.2);
+  (25, 2, 3, 8, '2019-07-04', 'Chapter Eight: The Battle of Starcourt', 78, 'Terror reigns in the food court when the Mind Flayer comes to collect. But down below, in the dark, the future of the world is at stake.', 4.2),
   (30, 3, 1, 1, '2016-11-04', 'Wolferton Splash', 60, 'A young Princess Elizabeth marries Prince Philip, and as King George VI struggles with health issues, the political landscape shifts.', 4.0),
   (31, 3, 1, 2, '2016-11-04', 'Hyde Park Corner', 58, 'As Winston Churchill becomes Prime Minister for the second time, the Royal Family navigates the challenges of post-war Britain.', 4.0),
   (32, 3, 1, 3, '2016-11-11', 'Windsor', 55, 'King George VI s health worsens, leading to political and personal repercussions for the royal family. Elizabeth becomes queen sooner than expected.', 4.3),
@@ -84,7 +86,7 @@ INSERT INTO Episodes VALUES
   (34, 3, 1, 5, '2016-11-25', 'Smoke and Mirrors', 54, 'Winston Churchill s health deteriorates, leading to concerns about the political future. Princess Margaret s relationship with Peter Townsend raises eyebrows.', 3.9),
   (35, 3, 1, 6, '2016-12-02', 'Gelignite', 56, 'Princess Margaret s engagement to Peter Townsend causes controversy, and Churchill is forced to resign as prime minister, leading to a new era for the monarchy.', 4.0),
   (36, 3, 1, 7, '2016-12-09', 'Scientia Potentia Est', 52, 'As Elizabeth settles into her role as queen, she faces challenges both personal and political. The Suez Crisis tests her leadership and relationship with Prime Minister Eden.', 3.6),
-  (37, 3, 1, 8, '2016-12-16', 'Pride & Joy', 60, 'Elizabeth s coronation takes place, but behind the grandeur, personal and political challenges persist. The strain on her marriage to Philip becomes more evident.', 3.8); 
+  (37, 3, 1, 8, '2016-12-16', 'Pride & Joy', 60, 'Elizabeth s coronation takes place, but behind the grandeur, personal and political challenges persist. The strain on her marriage to Philip becomes more evident.', 3.8),
   (38, 3, 2, 1, '2017-12-08', 'Misadventure', 63, 'Prince Philip embarks on a world tour, while the Suez Crisis creates tension in the government. Elizabeth struggles with her role as queen.', 4.1),
   (39, 3, 2, 2, '2017-12-08', 'A Company of Men', 55, 'Prince Philip embarks on a world tour, while the Suez Crisis creates tension in the government. Elizabeth struggles with her role as queen.', 4.0),
   (40, 3, 2, 3, '2017-12-15', 'Lisbon', 58, 'As the Suez Crisis unfolds, Elizabeth and Philip navigate personal and political challenges. Margaret s relationship with Peter Townsend faces scrutiny once again.', 4.7),
@@ -92,7 +94,7 @@ INSERT INTO Episodes VALUES
   (42, 3, 2, 5, '2017-12-22', 'Marionettes', 54, 'As the Kennedys visit Buckingham Palace, Elizabeth struggles with her feelings toward the glamorous first lady. Margaret s relationship with Tony takes an unexpected turn.', 4.5),
   (43, 3, 2, 6, '2017-12-22', 'Vergangenheit', 60, 'A secret from Edward VIII s past surfaces, creating tensions within the royal family. Philip confronts his past, and Margaret faces scrutiny over her relationship.', 4.2),
   (44, 3, 2, 7, '2017-12-08', 'Matrimonium', 52, 'Elizabeth grapples with the implications of her sister s marriage, and Philip faces criticism over his behavior. A scandalous discovery puts the monarchy in a delicate position.', 4.6),
-  (45, 3, 2, 8, '2017-12-08', 'Dear Mrs. Kennedy', 57, 'The Kennedys visit comes to an end, leaving lasting impressions on both the royal family and the American president. Margaret faces a crossroads in her personal life.', 4.8);
+  (45, 3, 2, 8, '2017-12-08', 'Dear Mrs. Kennedy', 57, 'The Kennedys visit comes to an end, leaving lasting impressions on both the royal family and the American president. Margaret faces a crossroads in her personal life.', 4.8),
   (46, 3, 3, 1, '2019-11-17', 'Olding', 58, 'The royal family enters a new era with the election of Harold Wilson as prime minister, and the changing social and political landscape of the 1960s and 70s.', 4.1),
   (47, 3, 3, 2, '2019-11-17', 'Margaretology', 54, 'Princess Margaret explores her role in the public eye, and Prince Charles navigates his duty as a young heir in the shadow of his mother.', 4.0),
   (48, 3, 3, 3, '2019-11-24', 'Aberfan', 58, 'The tragedy of the Aberfan mining disaster unfolds, testing the monarchy s response and the relationship between the crown and the people.', 3.4),
@@ -102,20 +104,20 @@ INSERT INTO Episodes VALUES
   (52, 3, 3, 7, '2019-12-08', 'Moondust', 52, 'The Apollo 11 moon landing has a profound impact on the world, and Prince Philip reflects on his own achievements and legacy. Charles faces pressure to find a suitable wife.', 4.0),
   (53, 3, 3, 8, '2019-12-08', 'Dangling Man', 57, 'Prince Charles romantic relationships come under scrutiny, and the Royal Family faces criticism from both the public and the government.', 4.2);
 
-INSERT INTO Film_Views
+INSERT INTO Film_Views VALUES
     (1,1,'frankie02m','2023-04-26 18:30:00'),
-    (2,3,'frankie02m','2023-04-26 23:05:00'),
+    (2,9,'frankie02m','2023-04-26 23:05:00'),
     (3,1,'gustavonelson098','2023-11-09 03:23:00'),
-    (4,2,'lucasthegreat','2023-11-13 17:34:00'),
-    (5,2,'gustavonelson098','2023-11-14 04:00:00'),
+    (4,8,'lucasthegreat','2023-11-13 17:34:00'),
+    (5,8,'gustavonelson098','2023-11-14 04:00:00'),
     (6,1,'frankie02m','2023-11-14 12:09:00'),
     (7,10,'frankie02m','2023-11-14 21:53:00'),
-    (8,2,'rodrigopires','2023-11-14 21:53:00'),
+    (8,8,'rodrigopires','2023-11-14 21:53:00'),
     (9,11,'frankie02m','2023-11-15 13:32.00'),
     (10,12,'frankie02m','2023-11-17 15:04:00');
 
 
-INSERT INTO Series_Views
+INSERT INTO Series_Views VALUES
     (1,1,'frankie02m','2023-05-01 18:00:00'),
     (2,2,'frankie02m','2023-05-01 18:56:00'),
     (3,3,'frankie02m','2023-05-01 19:49:00'),
@@ -132,31 +134,30 @@ INSERT INTO Series_Views
     (14,25,'gustavonelson098','2023-11-10 22:56:00'),
     (15,10,'lucasthegreat','2023-12-10 11:00:00');
 
-INSERT INTO Film_and_Series_Cast (cast_id, cast_name, cast_birth_date, cast_gender, cast_nacionality)
-VALUES 
+INSERT INTO Film_and_Series_Cast (cast_id, cast_name, cast_birth_date, cast_gender, cast_nacionality) VALUES 
   (1, 'Millie Bobby Brown', '2004-02-19', 'Female', 'British'),
   (2, 'Finn Wolfhard', '2002-12-23', 'Male', 'Canadian'),
-  (3, 'David Harbour', '1975-04-10', 'Male', 'American');
+  (3, 'David Harbour', '1975-04-10', 'Male', 'American'),
   (4, 'Henry Cavill', '1983-05-05', 'Male', 'British'),
   (5, 'Anya Chalotra', '1996-07-21', 'Female', 'British'),
-  (6, 'Freya Allan', '2001-09-06', 'Female', 'British');
+  (6, 'Freya Allan', '2001-09-06', 'Female', 'British'),
   (7, 'Olivia Colman', '1974-01-30', 'Female', 'British'),
   (8, 'Tobias Menzies', '1974-03-07', 'Male', 'British'),
-  (9, 'Helena Bonham Carter', '1966-05-26', 'Female', 'British');
+  (9, 'Helena Bonham Carter', '1966-05-26', 'Female', 'British'),
   (10, 'Leonardo DiCaprio', '1974-11-11', 'Male', 'American'),
   (11, 'Joseph Gordon-Levitt', '1981-02-17', 'Male', 'American'),
-  (12, 'Ellen Page', '1987-02-21', 'Female', 'Canadian');
+  (12, 'Ellen Page', '1987-02-21', 'Female', 'Canadian'),
   (13, 'Jennifer Aniston', '1969-02-11', 'Female', 'American'),
   (14, 'Courteney Cox', '1964-06-15', 'Female', 'American'),
   (15, 'Lisa Kudrow', '1963-07-30', 'Female', 'American'),
   (16, 'Matt LeBlanc', '1967-07-25', 'Male', 'American'),
-  (17, 'Matthew Perry', '1969-08-19', 'Male', 'American');
+  (17, 'Matthew Perry', '1969-08-19', 'Male', 'American'),
   (18, 'Tim Robbins', '1958-10-16', 'Male', 'American'),
   (19, 'Morgan Freeman', '1937-06-01', 'Male', 'American'),
-  (20, 'Bob Gunton', '1945-11-15', 'Male', 'American');
+  (20, 'Bob Gunton', '1945-11-15', 'Male', 'American'),
   (21, 'Christopher Nolan', '1970-07-30', 'Male', 'British'),
   (22, 'Tom Hooper', '1972-10-05', 'Male', 'British'),
-  (23, 'Frank Darabont', '1959-01-28', 'Male', 'American');
+  (23, 'Frank Darabont', '1959-01-28', 'Male', 'American'),
   (24, 'Daniel Radcliffe', '1989-07-23', 'Male', 'British'),
   (25, 'Emma Watson', '1990-04-15', 'Female', 'British'),
   (26, 'Rupert Grint', '1988-08-24', 'Male', 'British'),
@@ -164,13 +165,13 @@ VALUES
   (28, 'Maggie Smith', '1934-12-28', 'Female', 'British'),
   (29, 'Helena Bonham Carter', '1966-05-26', 'Female', 'British'),
   (30, 'Gary Oldman', '1958-03-21', 'Male', 'British'),
-  (31, 'Tom Felton', '1987-09-22', 'Male', 'British')
+  (31, 'Tom Felton', '1987-09-22', 'Male', 'British'),
   (32, 'Richard Harris', '1930-10-01', 'Male', 'Irish'),
-  (33, 'Michael Gambon', '1940-10-19', 'Male', 'Irish');
+  (33, 'Michael Gambon', '1940-10-19', 'Male', 'Irish'),
   (34, 'Chris Columbus', '1958-09-10', 'Male', 'American'),
   (35, 'Alfonso Cuarón', '1961-11-28', 'Male', 'Mexican'),
   (36, 'Mike Newell', '1942-03-28', 'Male', 'British'),
-  (37, 'David Yates', '1963-10-08', 'Male', 'British'),
+  (37, 'David Yates', '1963-10-08', 'Male', 'British');
 
 
 
@@ -194,12 +195,26 @@ VALUES
   (17),
   (18),
   (19),
-  (20);
+  (20),
+  (24),
+  (25),
+  (26),
+  (27),
+  (28),
+  (29),
+  (30),
+  (31),
+  (32),
+  (33);
 
   INSERT INTO Directors VALUES
   (21),
   (22),
-  (23);
+  (23),
+  (34),
+  (35),
+  (36),
+  (37);
 
   INSERT INTO Actor_Participations VALUES
   (10,1),
@@ -279,7 +294,7 @@ VALUES
   (31,17),
   (33,17);
 
-  INSERT INTO Director_Participations
+  INSERT INTO Director_Participations VALUES
   (21,1),
   (22,3),
   (23,8),
@@ -291,6 +306,41 @@ VALUES
   (37,15),
   (37,16),
   (37,17);
+
+  INSERT INTO Favourites_Film_and_Series VALUES
+  ('frankie02m',10),
+  ('frankie02m',11),
+  ('frankie02m',12),
+  ('frankie02m',13),
+  ('frankie02m',14),
+  ('frankie02m',15),
+  ('lucasthegreat',2),
+  ('lucasthegreat',3),
+  ('lucasthegreat',7),
+  ('gustavonelson098',2),
+  ('gustavonelson098',5),
+  ('gustavonelson098',4),
+  ('rodrigopires',9);
+
+  INSERT INTO Favourites_Film_and_Series_Cast VALUES
+  ('frankie02m',24),
+  ('frankie02m',25),
+  ('frankie02m',26),
+  ('frankie02m',35),
+  ('lucasthegreat',13),
+  ('lucasthegreat',14),
+  ('lucasthegreat',16),
+  ('gustavonelson098',4),
+  ('gustavonelson098',10);
+
+  INSERT INTO Reviews VALUES
+  (1,'frankie02m',1,'2023-04-26 20:55:00','Inception, while undoubtedly visually stunning and conceptually ambitious, lands at a three-star rating due to a mixed bag of elements. Christopher Nolan s mastery in creating mind-bending visuals and intricate narratives is evident, and the ensemble cast, led by Leonardo DiCaprio, delivers commendable performances. However, the complexity of the plot, while intriguing, can be overwhelming and might leave some viewers feeling lost or disconnected. The film s emphasis on its high-concept ideas occasionally overshadows character development, making it challenging to form strong emotional connections. Additionally, the pacing, particularly in the middle of the film, may feel sluggish to some audiences. While Inception is undeniably a cinematic spectacle, its narrative intricacies and occasional lack of emotional resonance contribute to a three-star evaluation.',3),
+  (2,'frankie02m',10,'2023-11-11 14:30:00','Harry Potter and the Philosopher s Stone is an absolute triumph, deserving every bit of its five-star rating. This cinematic adaptation of J.K. Rowling s enchanting world not only captures the spirit of the beloved book but elevates it to new heights. The film introduces us to the magical universe with spellbinding visuals, meticulous attention to detail, and a perfect balance of whimsy and wonder. The casting is a stroke of brilliance, with Daniel Radcliffe, Rupert Grint, and Emma Watson embodying the iconic trio with impeccable charm and authenticity. The film s ability to seamlessly blend the ordinary with the extraordinary, as Harry discovers his roots and steps into the wizarding world, is nothing short of magical.',5),
+  (3,'frankie02m',11,'2023-11-11 15:20:00','Harry Potter and the Chamber of Secrets earns a solid four-star rating as it successfully continues the magical journey of the beloved wizarding world. The film flawlessly translates J.K. Rowling s enchanting narrative to the screen, capturing the essence of Hogwarts School of Witchcraft and Wizardry with breathtaking visuals and a delightful sense of wonder. The young cast, led by Daniel Radcliffe, Rupert Grint, and Emma Watson, continues to shine, showcasing their growing on-screen chemistry and individual talents. The introduction of new characters and the expansion of the magical universe add depth to the storyline, maintaining the enchantment that fans have come to love. While the film is a thrilling adventure, it falls just shy of a perfect score due to moments where the pacing feels slightly rushed, impacting the exploration of certain plot elements. Nevertheless, Harry Potter and the Chamber of Secrets remains a captivating installment in the iconic series, leaving audiences eagerly anticipating the magical adventures that lie ahead for our beloved trio.',4),
+  (4,'gustavonelson098',14,'2023-11-12 17:04:00','Harry Potter and the Philosopher s Stone, a cinematic adaptation of J.K. Rowling s magical universe, earns a solid four-star rating for its captivating introduction to the world of Hogwarts and its endearing characters. The film successfully translates the enchanting narrative onto the screen, with Daniel Radcliffe, Rupert Grint, and Emma Watson delivering charming performances that lay the groundwork for their iconic roles. The film s visual effects and set design create a whimsical atmosphere that immerses audiences in the magic of Rowling s imagination. While the pacing is brisk to cover the expansive source material, it occasionally sacrifices in-depth exploration of certain plot nuances. Despite this, the film remains an engaging and visually delightful experience, setting the stage for the epic adventures that follow in the Harry Potter series.',4),
+  (5,'frankie02m',2,'2023-11-13 13:03:00','Stranger Things offers a thrilling journey through 80s nostalgia and supernatural intrigue, earning its four-star rating with a solid blend of captivating storytelling and charismatic characters. The show s meticulous attention to period detail and the talented ensemble cast create a compelling atmosphere that draws viewers into the mysterious world of Hawkins. While the series successfully balances suspense and emotional depth, a few moments feel slightly predictable, preventing it from achieving a flawless rating. Nonetheless, Stranger Things remains a highly enjoyable and well-crafted series, leaving audiences eagerly anticipating each new season to delve deeper into the intriguing mysteries of the Upside Down.',4),
+  (6,'lucasthegreat',2,'2023-11-15 16:01:00','Stranger Things is a five-star thrill ride that seamlessly merges 80s nostalgia with a supernatural storyline, creating a mesmerizing and binge-worthy experience. The show s impeccable attention to period detail immerses viewers in a nostalgic trip, while its exceptional ensemble cast, led by standout performances from Winona Ryder and David Harbour, brings depth and authenticity to every character. The Duffer Brothers masterful storytelling keeps audiences on the edge of their seats, balancing suspense, humor, and heart in a way that feels both familiar and refreshingly original. As the mysteries of the Upside Down unfold against the backdrop of Hawkins, the series evolves into a gripping exploration of friendship, family, and the resilience of the human spirit. With unexpected twists, impeccable pacing, and a perfect blend of genres, Stranger Things is a must-watch, earning its five-star status as a captivating and unforgettable television experience.',5);
+
 
 
 
