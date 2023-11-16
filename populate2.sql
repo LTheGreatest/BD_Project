@@ -282,10 +282,9 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Dominic Monaghan', '1976-12-08', 'Male', 'English'),
     ('Orlando Bloom', '1977-01-13', 'Male', 'English'),
     ('Christopher Lee', '1922-05-27', 'Male', 'English'),
-    ('Hugo Weaving', '1960-04-04', 'Male', 'Australian'),
     ('Sean Bean', '1959-04-17', 'Male', 'English'),
     ('Ian Holm', '1931-09-12', 'Male', 'English'),
-    ('Andy Serkis', '1964-04-20', 'Male', 'English'), --15
+    ('Andy Serkis', '1964-04-20', 'Male', 'English'), --14
     --Game of thrones
     ('Kit Harington', '1986-12-26', 'Male', 'English'),
     ('Peter Dinklage', '1969-06-11', 'Male', 'American'),
@@ -301,7 +300,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Michelle Fairley', '1964-01-17', 'Female', 'Northern Irish'),
     ('Jason Momoa', '1979-08-01', 'Male', 'American'),
     ('Richard Madden', '1986-06-18', 'Male', 'Scottish'),
-    ('Jack Gleeson', '1992-05-20', 'Male', 'Irish'), --30
+    ('Jack Gleeson', '1992-05-20', 'Male', 'Irish'), --29
     --Harry Potter
     ('Daniel Radcliffe', '1989-07-23', 'Male', 'English'),
     ('Rupert Grint', '1988-08-24', 'Male', 'English'),
@@ -314,10 +313,8 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Michael Gambon', '1940-10-19', 'Male', 'Irish'),
     ('Emma Thompson', '1959-04-15', 'Female', 'English'),
     ('Helena Bonham Carter', '1966-05-26', 'Female', 'English'),
-    ('Gary Oldman', '1958-03-21', 'Male', 'English'),
-    ('David Thewlis', '1963-03-20', 'Male', 'English'),
     ('Jason Isaacs', '1963-06-06', 'Male', 'English'),
-    ('Richard Harris', '1930-10-01', 'Male', 'Irish'), --45
+    ('Richard Harris', '1930-10-01', 'Male', 'Irish'), --42
     --Breaking Bad
     ('Bryan Cranston', '1956-03-07', 'Male', 'American'),
     ('Aaron Paul', '1979-08-27', 'Male', 'American'),
@@ -333,7 +330,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Krysten Ritter', '1981-12-16', 'Female', 'American'),
     ('Lavell Crawford', '1968-11-11', 'Male', 'American'),
     ('Ray Campbell', '1965-07-12', 'Male', 'American'),
-    ('Michael Shamus Wiles', '1955-10-27', 'Male', 'American'), --60
+    ('Michael Shamus Wiles', '1955-10-27', 'Male', 'American'), --57
     --The Godfather
     ('Marlon Brando', '1924-04-03', 'Male', 'American'),
     ('Al Pacino', '1940-04-25', 'Male', 'American'),
@@ -349,7 +346,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Talia Shire', '1946-04-25', 'Female', 'American'),
     ('Gianni Russo', '1943-12-12', 'Male', 'American'),
     ('John Cazale', '1935-08-12', 'Male', 'American'),
-    ('Rudy Bond', '1912-10-01', 'Male', 'American'), --75
+    ('Rudy Bond', '1912-10-01', 'Male', 'American'), --72
     --Inception
     ('Leonardo DiCaprio', '1974-11-11', 'Male', 'American'),
     ('Joseph Gordon-Levitt', '1981-02-17', 'Male', 'American'),
@@ -361,8 +358,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Tom Berenger', '1949-07-31', 'Male', 'American'),
     ('Marion Cotillard', '1975-09-30', 'Female', 'French'),
     ('Pete Postlethwaite', '1946-02-07', 'Male', 'English'),
-    ('Michael Caine', '1933-03-14', 'Male', 'English'),
-    ('Lukas Haas', '1976-04-16', 'Male', 'American'), --87
+    ('Lukas Haas', '1976-04-16', 'Male', 'American'), --83
     --Friends
     ('Jennifer Aniston', '1969-02-11', 'Female', 'American'),
     ('Courteney Cox', '1964-06-15', 'Female', 'American'),
@@ -378,7 +374,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Jane Sibbett', '1962-11-28', 'Female', 'American'),
     ('Helen Baxendale', '1970-06-07', 'Female', 'English'),
     ('Jessica Hecht', '1965-06-28', 'Female', 'American'),
-    ('June Gable', '1945-06-05', 'Female', 'American'), --102
+    ('June Gable', '1945-06-05', 'Female', 'American'), --98
     --The Lion King 
     ('Rowan Atkinson', '1955-01-06', 'Male', 'English'),
     ('Matthew Broderick', '1962-03-21', 'Male', 'American'),
@@ -396,7 +392,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Jonathan Taylor Thomas', '1981-09-08', 'Male', 'American'),
     ('Frank Welker', '1946-03-12', 'Male', 'American'),
     ('Cathy Cavadini', '1961-04-21', 'Female', 'American'),
-    ('Phil Proctor', '1940-07-28', 'Male', 'American'), --119
+    ('Phil Proctor', '1940-07-28', 'Male', 'American'), --115
     --The Theory of Everything
     ('Eddie Redmayne', '1982-01-06', 'Male', 'English'),
     ('Felicity Jones', '1983-10-17', 'Female', 'English'),
@@ -413,7 +409,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Simon Chandler', '1953-09-01', 'Male', 'English'),
     ('Charlie Cox', '1982-12-15', 'Male', 'English'),
     ('Frank Leboeuf', '1968-01-22', 'Male', 'French'),
-    ('Maxine Peake', '1974-07-14', 'Female', 'English'), --135
+    ('Maxine Peake', '1974-07-14', 'Female', 'English'), --131
     --Stranger Things
     ('Winona Ryder', '1971-10-29', 'Female', 'American'),
     ('David Harbour', '1975-04-10', 'Male', 'American'),
@@ -429,11 +425,10 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Sadie Sink', '2002-04-16', 'Female', 'American'),
     ('Joe Keery', '1992-04-24', 'Male', 'American'),
     ('Dacre Montgomery', '1994-11-22', 'Male', 'Australian'),
-    ('Sean Astin', '1971-02-25', 'Male', 'American'),
     ('Paul Reiser', '1957-03-30', 'Male', 'American'),
     ('Maya Hawke', '1998-07-08', 'Female', 'American'),
     ('Priah Ferguson', '2006-10-01', 'Female', 'American'),
-    ('Brett Gelman', '1976-10-06', 'Male', 'American'), --154
+    ('Brett Gelman', '1976-10-06', 'Male', 'American'), --149
     --The silenc of lambs
     ('Jodie Foster', '1962-11-19', 'Female', 'American'),
     ('Anthony Hopkins', '1937-12-31', 'Male', 'British'),
@@ -457,9 +452,8 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('George Michael', '1963-06-25', 'Male', 'English'),
     ('Cynthia Ettinger', '1964-01-01', 'Female', 'American'),
     ('Daniel von Bargen', '1950-06-05', 'Male', 'American'),
-    ('Harry Northup', '1940-12-02', 'Male', 'American'), --177
+    ('Harry Northup', '1940-12-02', 'Male', 'American'), --172
     --Titanic
-    ('Leonardo DiCaprio', '1974-11-11', 'Male', 'American'),
     ('Kate Winslet', '1975-10-05', 'Female', 'English'),
     ('Billy Zane', '1966-02-24', 'Male', 'American'),
     ('Kathy Bates', '1948-06-28', 'Female', 'American'),
@@ -495,7 +489,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('James Lancaster', '1949-01-01', 'Male', 'English'),
     ('Elsa Raven', '1929-09-21', 'Female', 'American'),
     ('John Walcutt', '1958-01-01', 'Male', 'American'),
-    ('Terry Forrestal', '1948-05-05', 'Male', 'English'), --214
+    ('Terry Forrestal', '1948-05-05', 'Male', 'English'), --208
     --The matrix
     ('Keanu Reeves', '1964-09-02', 'Male', 'Canadian'),
     ('Laurence Fishburne', '1961-07-30', 'Male', 'American'),
@@ -511,7 +505,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Paul Goddard', '1964-01-01', 'Male', 'Australian'), 
     ('Robert Taylor', '1963-01-01', 'Male', 'Australian'), 
     ('Ada Nicodemou', '1977-05-14', 'Female', 'Australian'),
-    ('Steve Dodd', '1928-11-01', 'Male', 'Australian'), --229
+    ('Steve Dodd', '1928-11-01', 'Male', 'Australian'), --223
     --The simpsons
      ('Dan Castellaneta', '1957-10-29', 'Male', 'American'), 
      ('Julie Kavner', '1950-09-07', 'Female', 'American'), 
@@ -536,8 +530,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
      ('Glenn Close', '1947-03-19', 'Female', 'American'), 
      ('Jan Hooks', '1957-04-23', 'Female', 'American'), 
      ('Maurice LaMarche', '1958-03-30', 'Male', 'Canadian'), 
-     ('Frank Welker', '1946-03-12', 'Male', 'American'), 
-     ('Kevin Michael Richardson', '1964-10-25', 'Male', 'American'), --254
+     ('Kevin Michael Richardson', '1964-10-25', 'Male', 'American'), --247
      --The Shawshank Redemption
     ('Tim Robbins', '1958-10-16', 'Male', 'American'),
     ('Morgan Freeman', '1937-06-01', 'Male', 'American'),
@@ -563,7 +556,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Dorothy Silver', '1930-01-01', 'Female', 'American'),
     ('Rita Hayworth', '1918-10-17', 'Female', 'American'),
     ('Sergio Kato', '1960-07-15', 'Male', 'Brazilian'),
-    ('George Macready', '1899-08-29', 'Male', 'American'), --279
+    ('George Macready', '1899-08-29', 'Male', 'American'), --272
     --The Dark Knight
     ('Christian Bale', '1974-01-30', 'Male', 'British'),
     ('Heath Ledger', '1979-04-04', 'Male', 'Australian'),
@@ -571,10 +564,8 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Michael Caine', '1933-03-14', 'Male', 'British'),
     ('Maggie Gyllenhaal', '1977-11-16', 'Female', 'American'),
     ('Gary Oldman', '1958-03-21', 'Male', 'British'),
-    ('Morgan Freeman', '1937-06-01', 'Male', 'American'),
     ('Monique Gabriela Curnen', '1970-09-07', 'Female', 'American'),
     ('Ron Dean', '1938-01-01', 'Male', 'American'),
-    ('Cillian Murphy', '1976-05-25', 'Male', 'Irish'),
     ('Chin Han', '1969-11-27', 'Male', 'Singaporean'),
     ('Nestor Carbonell', '1967-12-01', 'Male', 'American'),
     ('Eric Roberts', '1956-04-18', 'Male', 'American'),
@@ -595,7 +586,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Sarah Jayne Dunn', '1981-09-25', 'Female', 'English'),
     ('Charles Venn', '1973-06-24', 'Male', 'English'),
     ('David Dastmalchian', '1977-07-21', 'Male', 'American'),
-    ('Richard Dillane', '1964-01-01', 'Male', 'British'), --310
+    ('Richard Dillane', '1964-01-01', 'Male', 'British'), --301
     --The Hunger Games
     ('Jennifer Lawrenc', '1990-08-1', 'Female', 'America'),
     ('Josh Hutcherso', '1992-10-1', 'Male', 'America'), 
@@ -627,7 +618,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Ian Nelso', '1995-04-1', 'Male', 'America'),
     ('Tara Macke', '1983-09-0', 'Female', 'Filipin'), 
     ('Ashton Moi', '1996-12-2', 'Male', 'America'),
-    ('Gregory Sporlede', '1964-04-2', 'Male', 'America'), --341
+    ('Gregory Sporlede', '1964-04-2', 'Male', 'America'), --332
     --Sixth Sense
     ('Bruce Willis', '1955-03-19', 'Male', 'American'),
     ('Haley Joel Osment', '1988-04-10', 'Male', 'American'),
@@ -640,7 +631,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Angelica Page', '1964-02-17', 'Female', 'American'),
     ('KaDee Strickland', '1975-12-14', 'Female', 'American'),
     ('M. Night Shyamalan', '1970-08-06', 'Male', 'American'),
-    ('Gregory Sporleder', '1957-04-24', 'Male', 'American'), --353
+    ('Gregory Sporleder', '1957-04-24', 'Male', 'American'), --344
     --The Notebook
     ('Ryan Gosling', '1980-11-12', 'Male', 'Canadian'),
     ('Rachel McAdams', '1978-11-17', 'Female', 'Canadian'),
@@ -663,7 +654,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Dakota Hood', '1996-10-17', 'Female', 'American'),
     ('Steve Coulter', '1960-07-08', 'Male', 'American'),
     ('Ian Nelson', '1995-04-10', 'Male', 'American'),
-    ('Matthew Barry', '1962-01-01', 'Male', 'American'), --375
+    ('Matthew Barry', '1962-01-01', 'Male', 'American'), --366
     --The Da Vinci Code
     ('Tom Hanks', '1956-07-09', 'Male', 'American'),
     ('Audrey Tautou', '1976-08-09', 'Female', 'French'),
@@ -681,10 +672,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Brock Little', '1967-02-17', 'Male', 'American'), 
     ('Denis Podalydès', '1963-04-22', 'Male', 'French'),
     ('Stephen Wight', '1980-01-01', 'Male', 'English'),
-    ('Lambert Wilson', '1958-08-03', 'Male', 'French'),
-    ('Denis Podalydès', '1963-04-22', 'Male', 'French'),
-    ('Stephen Wight', '1980-01-01', 'Male', 'English'), 
-    ('Lambert Wilson', '1958-08-03', 'Male', 'French'), --395
+    ('Lambert Wilson', '1958-08-03', 'Male', 'French'), --383
     -- The wizard of Oz
     ('Judy Garland', '1922-06-10', 'Female', 'American'),
     ('Frank Morgan', '1890-06-01', 'Male', 'American'),
@@ -704,11 +692,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Adriana Caselotti', '1916-05-06', 'Female', 'American'),
     ('Pinto Colvig', '1892-09-11', 'Male', 'American'),
     ('Billy Curtis', '1909-06-27', 'Male', 'American'),
-    ('Ken Darby', '1909-05-13', 'Male', 'American'),
-    ('Brock Little', '1967-02-17', 'Male', 'American'),
-    ('Denis Podalydès', '1963-04-22', 'Male', 'French'),
-    ('Stephen Wight', '1980-01-01', 'Male', 'English'),
-    ('Lambert Wilson', '1958-08-03', 'Male', 'French'), --418
+    ('Ken Darby', '1909-05-13', 'Male', 'American'),--402
     --The social network
     ('Jesse Eisenberg', '1983-10-05', 'Male', 'American'),
     ('Andrew Garfield', '1983-08-20', 'Male', 'British'),
@@ -731,7 +715,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Caleb Landry Jones', '1989-12-07', 'Male', 'American'),
     ('Adina Porter', '1971-03-13', 'Female', 'American'),
     ('Abhi Sinha', '1990-02-20', 'Male', 'Indian'),
-    ('Oliver Muirhead', '1957-05-29', 'Male', 'British'), --440
+    ('Oliver Muirhead', '1957-05-29', 'Male', 'British'), --424
     --The terminator
     ('Arnold Schwarzenegger', '1947-07-30', 'Male', 'Austrian'),
     ('Michael Biehn', '1956-07-31', 'Male', 'American'), 
@@ -742,24 +726,10 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Bess Motta', '1958-02-10', 'Female', 'American'), 
     ('Earl Boen', '1945-11-07', 'Male', 'American'), 
     ('Dick Miller', '1928-12-25', 'Male', 'American'),
-    ('Franco Columbu', '1941-08-07', 'Male', 'Italian'), 
-    ('Bill Paxton', '1955-05-17', 'Male', 'American'),
-    ('Brian Thompson', '1959-08-28', 'Male', 'American'), 
+    ('Franco Columbu', '1941-08-07', 'Male', 'Italian'),  
     ('William Wisher Jr.', '1958-07-09', 'Male', 'American'),
     ('Harriet Medin', '1918-10-14', 'Female', 'American'), 
-    ('Loren Janes', '1931-03-01', 'Male', 'American'), 
-    ('Linda Hamilton', '1956-09-26', 'Female', 'American'), 
-    ('Michael Biehn', '1956-07-31', 'Male', 'American'),
-    ('Lance Henriksen', '1940-05-05', 'Male', 'American'), 
-    ('Paul Winfield', '1939-05-22', 'Male', 'American'), 
-    ('Rick Rossovich', '1957-08-28', 'Male', 'American'), 
-    ('Bess Motta', '1958-02-10', 'Female', 'American'), 
-    ('Earl Boen', '1945-11-07', 'Male', 'American'), 
-    ('Dick Miller', '1928-12-25', 'Male', 'American'),
-    ('Franco Columbu', '1941-08-07', 'Male', 'Italian'), 
-    ('Bill Paxton', '1955-05-17', 'Male', 'American'),
-    ('Brian Thompson', '1959-08-28', 'Male', 'American'), 
-    ('William Wisher Jr.', '1958-07-09', 'Male', 'American'), --468
+    ('Loren Janes', '1931-03-01', 'Male', 'American'), --437
     -- The shining
     ('Jack Nicholson', '1937-04-22', 'Male', 'American'),
     ('Shelley Duvall', '1949-07-07', 'Female', 'American'),
@@ -775,7 +745,7 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Manning Redwood', '1929-08-16', 'Male', 'American'),
     ('Lisa Burns', '1968-04-06', 'Female', 'English'),
     ('Louise Burns', '1968-04-06', 'Female', 'English'),
-    ('Vivian Kubrick', '1960-08-05', 'Female', 'American'),--482
+    ('Vivian Kubrick', '1960-08-05', 'Female', 'American'),--452
 
     --Directors-------------------------------------------------------------------
 
@@ -797,154 +767,168 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('The Wachowskis', '1965-06-21', 'Other', 'United States'), -- co-directors of The Matrix [^13^][13]
     ('Matt Groening', '1954-02-15', 'Male', 'United States'), -- creator, writer, and producer of The Simpsons [^14^][14]
     ('Frank Darabont', '1959-01-28', 'Male', 'France'), -- director of The Shawshank Redemption [^15^][15]
-    ('Christopher Nolan', '1970-07-30', 'Male', 'United Kingdom'), -- director of The Dark Knight [^6^][6]
+    --('Christopher Nolan', '1970-07-30', 'Male', 'United Kingdom'), -- director of The Dark Knight [^6^][6]
     ('Gary Ross', '1956-11-03', 'Male', 'United States'), -- director of The Hunger Games [^16^][16]
     ('M. Night Shyamalan', '1970-08-06', 'Male', 'India'), -- director of The Sixth Sense [^17^][17]
     ('Nick Cassavetes', '1959-05-21', 'Male', 'United States'), -- director of The Notebook [^18^][18]
     ('Ron Howard', '1954-03-01', 'Male', 'United States'), -- director of The Da Vinci Code [^19^][19]
     ('Victor Fleming', '1889-02-23', 'Male', 'United States'), -- director of The Wizard of Oz [^20^][20]
     ('David Fincher', '1962-08-28', 'Male', 'United States'), -- director of The Social Network [^21^][21]
-    ('James Cameron', '1954-08-16', 'Male', 'Canada'), -- director of The Terminator [^12^][12]
-    ('Stanley Kubrick', '1928-07-26', 'Male', 'United States'); -- director of The Shining [^22^][22]   509
+    --('James Cameron', '1954-08-16', 'Male', 'Canada'), -- director of The Terminator [^12^][12]
+    ('Stanley Kubrick', '1928-07-26', 'Male', 'United States'); -- director of The Shining [^22^][22]   476
 
 
 --select * from Film_and_Series_Cast;
 INSERT INTO Actors (actor_id)
 SELECT cast_id FROM Film_and_Series_Cast
-WHERE cast_id BETWEEN 1 AND 482;
+WHERE cast_id BETWEEN 1 AND 452;
 
 
 INSERT INTO Directors(director_id)
 SELECT cast_id From Film_and_Series_Cast
-Where cast_id BETWEEN 483 AND 509;
+Where cast_id BETWEEN 453 AND 477;
 
 --SELECT * FROM Film_and_Series_Cast Where cast_id BETWEEN 483 AND 509;
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id,Films_and_Series.film_or_series_id FROM Film_and_Series_Cast,Films_and_Series
-Where (cast_id BETWEEN 1 and 15) and (film_or_series_id = 1);
+Where (cast_id BETWEEN 1 and 14) and (film_or_series_id = 1);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 16 and 30) and (film_or_series_id = 2);
+Where (cast_id BETWEEN 15 and 29) and (film_or_series_id = 2);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 31 and 45) and (film_or_series_id = 3);
+Where (cast_id BETWEEN 30 and 42) and (film_or_series_id = 3);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 46 and 60) and (film_or_series_id = 4);
+Where (cast_id BETWEEN 43 and 57) and (film_or_series_id = 4);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 61 and 75) and (film_or_series_id = 5);
+Where (cast_id BETWEEN 58 and 72) and (film_or_series_id = 5);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 76 and 87) and (film_or_series_id = 6);
+Where (cast_id BETWEEN 73 and 83) and (film_or_series_id = 6);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 88 and 102) and (film_or_series_id = 7);
+Where (cast_id BETWEEN 84 and 98) and (film_or_series_id = 7);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 103 and 119) and (film_or_series_id = 8);
+Where (cast_id = 73) and (film_or_series_id = 7);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 120 and 135) and (film_or_series_id = 9);
+Where (cast_id BETWEEN 99 and 115) and (film_or_series_id = 8);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 136 and 154) and (film_or_series_id = 10);
+Where (cast_id BETWEEN 116 and 131) and (film_or_series_id = 9);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 155 and 177) and (film_or_series_id = 11);
+Where (cast_id BETWEEN 132 and 149) and (film_or_series_id = 10);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 178 and 214) and (film_or_series_id = 12);
+Where (cast_id BETWEEN 150 and 172) and (film_or_series_id = 11);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 215 and 229) and (film_or_series_id = 13);
+Where (cast_id BETWEEN 173 and 208) and (film_or_series_id = 12);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 230 and 254) and (film_or_series_id = 14);
+Where (cast_id BETWEEN 209 and 223) and (film_or_series_id = 13);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 255 and 279) and (film_or_series_id = 15);
+Where (cast_id BETWEEN 224 and 247) and (film_or_series_id = 14);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 280 and 310) and (film_or_series_id = 16);
+Where (cast_id BETWEEN 248 and 272) and (film_or_series_id = 15);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 311 and 341) and (film_or_series_id = 17);
+Where (cast_id BETWEEN 273 and 301) and (film_or_series_id = 16);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 342 and 353) and (film_or_series_id = 18);
+Where (cast_id = 82) and (film_or_series_id = 16);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 354 and 375) and (film_or_series_id = 19);
+Where (cast_id BETWEEN 302 and 332) and (film_or_series_id = 17);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 376 and 395) and (film_or_series_id = 20);
+Where (cast_id BETWEEN 333 and 344) and (film_or_series_id = 18);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 396 and 418) and (film_or_series_id = 21);
+Where (cast_id BETWEEN 345 and 366) and (film_or_series_id = 19);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 419 and 440) and (film_or_series_id = 22);
+Where (cast_id BETWEEN 367 and 383) and (film_or_series_id = 20);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 441 and 468) and (film_or_series_id = 23);
+Where (cast_id BETWEEN 384 and 402) and (film_or_series_id = 21);
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
-Where (cast_id BETWEEN 469 and 482) and (film_or_series_id = 24);
+Where (cast_id BETWEEN 403 and 424) and (film_or_series_id = 22);
+
+INSERT INTO Actor_Participations (actor_id, film_or_series_id)
+SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
+Where (cast_id BETWEEN 425 and 437) and (film_or_series_id = 23);
+
+INSERT INTO Actor_Participations (actor_id, film_or_series_id)
+SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
+Where (cast_id = 184) and (film_or_series_id = 23);
+
+INSERT INTO Actor_Participations (actor_id, film_or_series_id)
+SELECT Film_and_Series_Cast.cast_id, Films_and_Series.film_or_series_id FROM  Film_and_Series_Cast, Films_and_Series
+Where (cast_id BETWEEN 438 and 452) and (film_or_series_id = 24);
 
 
 INSERT INTO Director_Participations(director_id, film_or_series_id) values
-    (483,1),
-    (484,2),
-    (485,2),
-    (486,3),
-    (487,4),
-    (488,5),
-    (489,6),
-    (490,7),
-    (491, 8),
-    (492, 8),
-    (493,9),
-    (494,10),
-    (495, 10),
-    (496,11),
-    (497, 12),
-    (498, 13),
-    (499, 14),
-    (500, 15),
-    (501, 16),
-    (502, 17),
-    (503, 18),
-    (504, 19),
-    (505, 20),
-    (506, 21),
-    (507, 22),
-    (508, 23),
-    (509, 24);
+    (453,1),
+    (454,2),
+    (455,2),
+    (456,3),
+    (457,4),
+    (458,5),
+    (459,6),
+    (459,16),
+    (460,7),
+    (461, 8),
+    (462, 8),
+    (463,9),
+    (464,10),
+    (465, 10),
+    (466,11),
+    (467, 12),
+    (468, 13),
+    (469, 14),
+    (470, 15),
+    (471, 17),
+    (472, 18),
+    (473, 19),
+    (474, 20),
+    (475, 21),
+    (476, 22),
+    (467, 23),
+    (477, 24);
+
+    
 
 
 INSERT INTO Favourites_Film_and_Series (username, film_or_series_id) VALUES

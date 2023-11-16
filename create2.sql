@@ -88,7 +88,8 @@ CREATE TABLE Film_and_Series_Cast(
     cast_name TEXT NOT NULL,
     cast_birth_date DATE NOT NULL,
     cast_gender TEXT NOT NULL CHECK(cast_gender = 'Male' OR cast_gender = 'Female' OR cast_gender = 'Other'),
-    cast_nacionality TEXT NOT NULL
+    cast_nacionality TEXT NOT NULL,
+    UNIQUE(cast_name, cast_birth_date, cast_gender, cast_nacionality)
 );
 
 DROP TABLE IF EXISTS Actors;
