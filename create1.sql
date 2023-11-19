@@ -16,7 +16,6 @@ CREATE TABLE Subscriptions(
     subscription_start DATE NOT NULL,
     subscription_end DATE CHECK(subscription_end >= subscription_start),
     payment_method VARCHAR(15) CHECK(payment_method = 'Credit Card' OR payment_method = 'Debit Card' OR payment_method = 'Paypal'),
-    subscription_status VARCHAR(10) CHECK(subscription_status = 'Active' OR subscription_status = 'Expired' OR subscription_status = 'Canceled'),
     FOREIGN KEY(username) REFERENCES Users(username)  ON DELETE CASCADE ON UPDATE CASCADE
 );
 
@@ -35,7 +34,7 @@ CREATE TABLE Films_and_Series(
 DROP TABLE IF EXISTS Films;
 CREATE TABLE Films(
     film_id INT PRIMARY KEY,
-    film_duration_hours FLOAT NOT NULL,
+    film_duration_hours FLOAT NOT NULL CHECK(film_duration_hours > 0),
     film_release_date DATE NOT NULL,
     FOREIGN KEY(film_id) REFERENCES Films_and_Series(film_or_series_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
@@ -50,11 +49,11 @@ DROP TABLE IF EXISTS Episode;
 CREATE TABLE Episode(
     episode_id INT PRIMARY KEY,
     series_id INT NOT NULL,
-    season_number INT NOT NULL,
-    episode_number INT NOT NULL,
+    season_number INT NOT NULL CHECK(season_number > 0),
+    episode_number INT NOT NULL CHECK(episode_number > 0),
     episode_release_date DATE NOT NULL,
     episode_name VARCHAR(20) NOT NULL,
-    duration_minutes INT NOT NULL,
+    duration_minutes INT NOT NULL CHECK(duration_minutes > 0),
     episode_description TEXT,
     episode_rating INT CHECK(episode_rating > 0 AND episode_rating <= 5),
     UNIQUE (series_id,season_number,episode_number),

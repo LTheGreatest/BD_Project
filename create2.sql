@@ -34,7 +34,7 @@ CREATE TABLE Films_and_Series(
 DROP TABLE IF EXISTS Films;
 CREATE TABLE Films(
     film_id INTEGER PRIMARY KEY,
-    film_duration_hours FLOAT NOT NULL,
+    film_duration_hours FLOAT NOT NULL CHECK(film_duration_hours > 0),
     film_release_date DATE NOT NULL,
     FOREIGN KEY(film_id) REFERENCES Films_and_Series(film_or_series_id) ON DELETE CASCADE ON UPDATE CASCADE
 );
@@ -49,11 +49,11 @@ DROP TABLE IF EXISTS Episode;
 CREATE TABLE Episode(
     episode_id INTEGER PRIMARY KEY,
     series_id INTEGER NOT NULL,
-    season_number INTEGER NOT NULL,
-    episode_number INTEGER NOT NULL,
+    season_number INTEGER NOT NULL CHECK(season_number > 0),
+    episode_number INTEGER NOT NULL CHECK(episode_number > 0),
     episode_release_date DATE NOT NULL,
     episode_name TEXT NOT NULL,
-    episode_duration_minutes INTEGER NOT NULL,
+    episode_duration_minutes INTEGER NOT NULL CHECK(episode_duration_minutes > 0),
     episode_description TEXT,
     episode_rating INTEGER CHECK(episode_rating > 0 AND episode_rating <= 5),
     UNIQUE (series_id,season_number,episode_number),
