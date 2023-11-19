@@ -778,7 +778,6 @@ INSERT INTO Film_and_Series_Cast (cast_name, cast_birth_date, cast_gender, cast_
     ('Stanley Kubrick', '1928-07-26', 'Male', 'United States'); -- director of The Shining [^22^][22]   476
 
 
---select * from Film_and_Series_Cast;
 INSERT INTO Actors (actor_id)
 SELECT cast_id FROM Film_and_Series_Cast
 WHERE cast_id BETWEEN 1 AND 452;
@@ -788,7 +787,6 @@ INSERT INTO Directors(director_id)
 SELECT cast_id From Film_and_Series_Cast
 Where cast_id BETWEEN 453 AND 477;
 
---SELECT * FROM Film_and_Series_Cast Where cast_id BETWEEN 483 AND 509;
 
 INSERT INTO Actor_Participations (actor_id, film_or_series_id)
 SELECT Film_and_Series_Cast.cast_id,Films_and_Series.film_or_series_id FROM Film_and_Series_Cast,Films_and_Series
