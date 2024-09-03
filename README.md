@@ -4,7 +4,7 @@ This project was made for the BD UC. The main goal is to build a relational data
 (one using AI help and the other without help).
 
 
-Final Grade: 16.4
+**Final Grade: 16.4**
 
 ## Instructions
 
